@@ -1,0 +1,74 @@
+{
+    "name": "MainInput",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "5d875d04-b2da-4204-9f10-3664f1b7061f",
+            "actions": [
+                {
+                    "name": "Drop",
+                    "type": "Button",
+                    "id": "9fd7c357-95a7-4660-b748-2fd04c3073a1",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "MousePosition",
+                    "type": "Value",
+                    "id": "bc70ae22-9401-4ed6-8cbd-c6d30dda30ef",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Shake",
+                    "type": "Button",
+                    "id": "547d787f-0618-4fe9-b857-5e96a897f9bd",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "121e4c28-0334-40d9-b6dd-977a8750e678",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Drop",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a1d81e78-3ca4-4f80-bac0-a00853f4a027",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MousePosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8630bbb9-9963-4e4a-9328-ddc2595a63f4",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Shake",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

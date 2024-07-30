@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1638888414149999246
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1544695882832181341}
+  - component: {fileID: 2769393568246423593}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1544695882832181341
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1638888414149999246}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2769393568246423593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1638888414149999246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8003f841e9292fe4eae5dd5367a929ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultPlayerObjectPrefab: {fileID: 7853164868695585282, guid: a62db91cb02962148b64aaf38f75a71d, type: 3}
+  guideLineObjectPrefab: {fileID: 256426963197050197, guid: 365b61282437eb64990eab6ff757eae2, type: 3}
+  mainCanvasPrefab: {fileID: 6343924846719187312, guid: ab10f8781ded7684d8de3c4d0a11fd68, type: 3}
+  optionCanvasPrefab: {fileID: 5506837154093577630, guid: cc1c018663318554ca65392801461a9c, type: 3}
+  resultCanvasPrefab: {fileID: 5048245882389706618, guid: 19fcf1ce635a1244b8a1b4bf1cb156f5, type: 3}
+  addScoreSpeed: 0.08
+  maxShakeValue: 5
+  shakeClip: {fileID: 8300000, guid: 79b0e451802e98641b96c2fcca9596e0, type: 3}
+  gameStartClip: {fileID: 8300000, guid: ded687058e70d814a9c1a9734476c795, type: 3}
+  gameOverClip: {fileID: 8300000, guid: bf1a5111aa96e184d8b94fba4c994bff, type: 3}
